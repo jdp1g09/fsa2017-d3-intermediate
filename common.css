@@ -13,3 +13,9 @@ h1 {
 	font-size: 1.3em;
 	font-family: Helvetica;
 }
+
+path {
+	fill: none;
+	stroke: black;
+	stroke-width: 2px;
+}
