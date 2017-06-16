@@ -84,3 +84,15 @@
 
 ### 3. Paths
 
+* Create line function
+  * .line()
+  * .x(function ...) return xScale(d.x)
+  * .y(function ...) return yScale(d.y)
+* Create path
+  * append('path')
+  * .datum(objArray)
+  * .attr('d', linefunction)
+* 
+
+
+
