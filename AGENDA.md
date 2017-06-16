@@ -101,3 +101,13 @@
     * d3.curveStep
 
 > ~ 1 hour 15 mins - 1 hour 20 mins
+
+### 4. Other Graph Types
+
+* [Stacked to Grouped Bar Chart](http://bl.ocks.org/mbostock/3943967)
+* [Chord Diagram](https://bl.ocks.org/mbostock/4062006)
+* [Force Directed Graph](https://bl.ocks.org/mbostock/4062045)
+* [Tree](https://bl.ocks.org/mbostock/4063582)
+* [Zoomable Tree](http://bl.ocks.org/ganeshv/6a8e9ada3ab7f2d88022)
+* [Pie](https://bl.ocks.org/mbostock/3887235)
+* [World Map](https://bl.ocks.org/mbostock/4180634)
