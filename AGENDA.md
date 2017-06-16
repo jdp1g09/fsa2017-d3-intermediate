@@ -92,7 +92,12 @@
   * append('path')
   * .datum(objArray)
   * .attr('d', linefunction)
-* 
+* Transition path
+* Interpolation
+  * .curve() on line function
+  * Options
+    * d3.curveBasis
+    * d3.curveMonotoneX
+    * d3.curveStep
 
-
-
+> ~ 1 hour 15 mins - 1 hour 20 mins
