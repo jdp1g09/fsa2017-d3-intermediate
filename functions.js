@@ -33,17 +33,17 @@ var color = d3.scaleOrdinal(d3.schemeCategory20);
 var xAxis = d3.axisBottom(xScale);
 var yAxis = d3.axisLeft(yScale);
 
-d3.select('svg')
-	.append('g')
+var svg = d3.select('svg');
+
+svg.append('g')
 	.attr("transform", "translate(0," + (height - padding) + ")")
 	.call(xAxis);
 
-d3.select('svg')
-	.append('g')
+svg.append('g')
 	.attr("transform", "translate(" + padding + "," + 0 + ")")
 	.call(yAxis);
 
-var groups = d3.select('svg')
+var groups = svg
 	.selectAll('g.datapoint')
 	.data(objArray)
 	.enter()
